@@ -18,13 +18,24 @@ printf("Hello World") --> std::cout << "Hello World";
 */
 
 
-#include <stdio.h>
-int main() 
+//* this in c++
+   convert cm to inch */
+   
+#include<iostream>
+
+//start the main function
+int main()
 {
-    float cm, inches;
-    printf("Enter a length in cm : ");
-    scanf("%f",&cm);
-    inches = cm / 2.54;
-    printf("Length in inches is %f \n", inches);
-    return 0;
-}  
+	//variable declaration and initialization
+	float cm , inches;
+	
+	std::cout << "Enter the length in cm : ";//input the length in cm 
+	std::cin >> cm;//read the length in cm
+	
+	inches = cm / 2.54;
+	
+	std::cout << "Length in inches is " << inches;	
+	
+	return 0;
+	//end of the main function
+}

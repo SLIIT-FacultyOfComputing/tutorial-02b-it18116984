@@ -1,0 +1,4 @@
+Enter a value for n Enter a value for r nCr--------= r!=----------2
+n-r!=----------720
+n!=----------40320
+28
